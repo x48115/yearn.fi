@@ -15,6 +15,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer(withPWA({
 	images: {
+		unoptimized: true,
 		domains: [
 			'rawcdn.githack.com',
 			'raw.githubusercontent.com',
